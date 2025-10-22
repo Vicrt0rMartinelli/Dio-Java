@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Parascan",
+            "request": "launch",
+            "mainClass": "Parascan",
+            "projectName": "teste_5661f1d4"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
