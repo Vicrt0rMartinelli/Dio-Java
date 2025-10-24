@@ -8,15 +8,18 @@ public class SaldoConta {
 
         System.out.println("Digite seu saldo");
         Double saldo = scanner.nextDouble();
+       
+       ///Double saldo = 1000.0;
 
         System.out.println("Digite o valor do saque");
         Double valorDeSaque = scanner.nextDouble();
 
         if (valorDeSaque < saldo){
             saldo = saldo - valorDeSaque;
-        }
-
-        System.out.println(saldo);    
+            System.out.println("Novo Saldo : " + saldo);
+        }else 
+            System.out.println("Saldo insuficiente para saque");
+               
         scanner.close();    
     }
 }
