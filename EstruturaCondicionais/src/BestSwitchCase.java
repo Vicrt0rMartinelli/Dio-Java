@@ -10,7 +10,9 @@ public class BestSwitchCase {
         //String plano = "M";
         //String plano = "B";
 
-
+        /*Observação o SwitchCase dá continuidade as contições abaixo da contição 
+         * valida se não for colocado o break em cada case.*/
+        
         switch (plano){
             case "T":{
                 System.out.println("5GB Youtube");
